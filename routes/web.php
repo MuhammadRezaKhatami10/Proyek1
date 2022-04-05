@@ -24,7 +24,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::get('/',  [PageController::class, 'index']);
 
-Route::get('/about', [PageController::class, 'about']);
+Route::get('/toko', [PageController::class, 'toko']);
 
 Route::get('/cart', [PageController::class, 'cart']);
 
@@ -32,7 +32,7 @@ Route::get('/checkout', [PageController::class, 'checkout']);
 
 Route::get('/gallery', [PageController::class, 'gallery']);
 
-Route::get('/my-account', [PageController::class, 'myAccount']);
+Route::get('/mebel', [PageController::class, 'mebel']);
 
 Route::get('/shop-detail', [PageController::class, 'shopDetail']);
 

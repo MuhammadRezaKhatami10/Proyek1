@@ -10,8 +10,8 @@ class PageController extends Controller
         return view('index');
     }
     
-    function about() {
-        return view('about');
+    function toko() {
+        return view('toko');
     }
     
     function cart() {
@@ -26,8 +26,8 @@ class PageController extends Controller
         return view('gallery');
     }
     
-    function myAccount() {
-        return view('my-account');
+    function mebel() {
+        return view('mebel');
     }
     
     function shopDetail() {
